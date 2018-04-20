@@ -1,0 +1,210 @@
+#body {
+    overflow: hidden;
+    height: 100%;
+    margin: 0;
+    background-image: url("../images/asanoha-400px/asanoha-400px.png");
+    font-family: 'Nanum Gothic', sans-serif;
+    letter-spacing: .7px;
+}
+
+.header {
+    width: 100%;
+    height: 75px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    border-bottom: 2px solid #cccccc;
+    font-family: 'Dancing Script', cursive;
+}
+
+.navbar {
+    width: 960px;
+    margin: 0 auto;
+}
+
+.name {
+    float: left;
+    padding: 22.5px;
+    font-size: 30px;
+    color: #ffffff;
+    background-color: #cc919a;
+}
+
+.heading {
+    font-weight: bold;
+    font-family: 'Dancing Script', cursive;
+}
+
+li {
+    float: right;
+    padding-left: 5px;
+    color: #777777;
+}
+
+ul {
+    font-family: 'Nanum Gothic', sans-serif;
+    font-size: 14px;
+    display: block;
+    list-style-type: none;
+    margin: 0;
+    padding: 32px 0px 32px 0;
+    opacity: 0.75;
+}
+
+.about {
+    width: 920px;
+    height: auto;
+    overflow: hidden;
+    margin: 0 auto;
+    margin-top: 32px;
+    padding: 20px;
+    background-color: #ffffff;
+    color: #777777;
+    border-color: #777777;
+}
+
+h2 {
+    color: #cc919a;
+    font-size: 24px;
+    padding: 5px 0px 15px 0px;
+    border-bottom: 2px solid #cccccc;
+}
+
+#image {
+    float: left;
+    width: 200px;
+    height: 200px;
+    padding: 20px 20px 10px 0px;
+}
+
+p {
+    float: left;
+    padding: 20px 20px 20px 0px;
+    font-size: 16px;
+}
+
+.portfolio {
+    width: 100%;
+    position: relative;
+    padding: 20px 20px 10px 0px; 
+}
+
+.portfolioView {
+    width: 220px;
+    height: 200px;
+    margin-right: 20px;
+}
+
+h3 {
+    height: 30px;
+    width: 220px;
+    background: #cc919a;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 15px;
+}
+
+#legend {
+    position: absolute;
+    top: 150px;
+}
+
+#lucius {
+    position: absolute;
+    left: 245px;
+    top: 150px;
+}
+
+#catmouse {
+    position: absolute;
+    right: 229.5px;
+    top: 150px;
+}
+
+form {padding: 20px 20px 10px 0px;}
+
+input {
+    width: 100%;
+    height: auto;
+    padding: 5px 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    color: #777777;
+}
+
+textarea {
+    width: 100%;
+    padding: 5px 10px;
+    margin-top: 5px;
+    font-family: 'Nanum Gothic', sans-serif;
+}
+
+button {
+    background: #cc919a; 
+    color: #ffffff;
+    width: 100px;
+    border: none;
+    border-radius: 2px;
+    border: none;
+    padding: 10px;
+    text-align: center;
+    font-size: 16px;
+}
+
+.footer {
+    position: fixed;
+    bottom: 0;
+    overflow: hidden;
+    width: 100%;
+    height: 75px;
+    background-color: #666666;
+    border-top: 4px solid #cc919a;
+    text-align: center;
+}
+
+h7 {
+    position: absolute;
+    bottom: 30px;
+    opacity: 0.75;
+    font-size: 12px;
+    text-align: center;
+    color: #ffffff;
+}
+
+.clearfix::after {
+	content: "";
+	display: block;
+	clear: both;
+}
+
+a {
+    color: #777777;
+    text-decoration: none;
+}
+
+a:visted {
+    color: #e5a3ad;
+}
+
+a:hover {
+    color: #cc919a;
+}
+
+a:focus {
+    color: #b27f87;
+}
+
+a:active {
+    color: #ffb6c1;
+}
+
+button:hover {
+    background: #e5a3ad;
+}
+
+button:focus {
+    background: #b27f87;
+}
+
+button:active {
+    background: #ffb6c1;
+}
